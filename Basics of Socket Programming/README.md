@@ -25,15 +25,45 @@ It demonstrates how two programs (a client and a server) can communicate using I
     
 - Files
   
-  - UDP Client Program - [udp_client.c]()
-  - UDP Server Program - [udp server.c]()
+  - UDP Client Program - [udp_client.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/Basics%20of%20Socket%20Programming/udp_client.c)
+  - UDP Server Program - [udp server.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/Basics%20of%20Socket%20Programming/udp_server.c)
 ---
 
 ## ▶️ How to Compile & Run  
 
 ### Step 1: Compile both programs  
-```sh
-$ gcc udp_server.c -o udp_server
-$ gcc udp_client.c -o udp_client
-```
 
+  ```sh
+    $ gcc udp_server.c -o udp_server
+    $ gcc udp_client.c -o udp_client
+  ```
+
+### Step 2: Start the server
+
+  ```sh
+    $ ./udp_server 127.0.0.1 8080
+  ```
+
+### Step 3: Start the client (in another terminal)
+
+  ```sh
+    $ ./udp_client 127.0.0.1 8080
+  ```
+
+- Messages typed in one terminal will appear in the other.
+
+-To terminate, type:
+
+  ```sh
+    exit
+  ```
+
+---
+
+## 🎯 Purpose
+
+- Understand the basics of socket creation in C
+
+- Learn UDP socket APIs (`socket()`, `sendto()`, `recvfrom()`, `close()`)
+
+- Implement a simple message exchange system
