@@ -64,6 +64,6 @@ It demonstrates how two programs (a client and a server) can communicate using I
 
 - Understand the basics of socket creation in C
 
-- Learn UDP socket APIs (`socket()`, `sendto()`, `recvfrom()`, `close()`)
+- Learn UDP socket APIs ( `socket()`, `sendto()`, `recvfrom()`, `close()` )
 
 - Implement a simple message exchange system
