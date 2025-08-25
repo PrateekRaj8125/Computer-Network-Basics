@@ -67,3 +67,10 @@ It demonstrates how two programs (a client and a server) can communicate using I
 - Learn UDP socket APIs ( `socket()`, `sendto()`, `recvfrom()`, `close()` )
 
 - Implement a simple message exchange system
+
+---
+
+## 📌 Notes
+
+- Run the server before the client.
+- Both programs will terminate cleanly once `"exit"` is sent by the client.
