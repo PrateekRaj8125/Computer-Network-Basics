@@ -15,7 +15,7 @@
 //the port users will be connecting to
 #define SERVERPORT 8080     
 
-// ✅ New function added
+// New function added
 void check_exit(const char *msg, int sockfd) {
     if (strcmp(msg, "exit") == 0) {
         printf("Exit command received. Closing client...\n");
@@ -55,7 +55,7 @@ int main() {
         arg[len - 1] = '\0'; // Remove the newline character from the input
     }
 
-    // ✅ Check if user typed "exit"
+    // Check if user typed "exit"
         check_exit(arg, sockfd);
     
     // Send message to server
