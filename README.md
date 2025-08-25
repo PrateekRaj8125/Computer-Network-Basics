@@ -1,6 +1,43 @@
+# 📡 Basic Programming for Computer Networks  
 
-# Basic Programming for Computer Network
+This repository contains **introductory programs and concepts** related to **Computer Networks**, designed to help students and beginners build a solid foundation.  
 
-This repository provides you with introductory programs based on the concept of ***Computer Networks***
+The programs progress from **basic C programming fundamentals** to **socket programming (UDP & TCP)**, ensuring step-by-step learning.  
 
-- You can get Programs starting with individual labs, which explain one basic concept to promote learning progressively.
+---
+
+## 📂 Repository Contents  
+
+| Module | Description |
+|--------|-------------|
+| [Overview of C Programming](https://github.com/PrateekRaj8125/CN_Lab/tree/main/Overview%20of%20C%20Programming) | Covers essential C programming concepts (functions, pointers, structures, endianness) required for networking. |
+| [Basics of Socket Programming](https://github.com/PrateekRaj8125/CN_Lab/tree/main/Basics%20of%20Socket%20Programming) | Introduction to **UDP (connectionless)** socket programming with sender–receiver communication. |
+| [Connection-Oriented Socket Programming](https://github.com/PrateekRaj8125/CN_Lab/tree/main/Connection%20Oriented%20Socket%20Programming) | Implementation of **TCP client–server** communication with connection establishment, message exchange, and teardown. |
+
+---
+
+## 🎯 Purpose  
+
+- Strengthen **C programming skills** for networking applications  
+- Understand the **fundamentals of socket programming**  
+- Provide **hands-on programs** aligned with Computer Networks laboratory work  
+
+---
+
+## ▶️ Usage  
+
+Each folder contains:  
+- 📘 **Coverage** → concepts explained  
+- 📝 **Assignments** → programs to practice  
+- 💻 **Code files** → sample implementations  
+
+You can navigate to the respective folders to explore code and instructions.  
+
+---
+
+## 🤝 Contribution  
+
+Contributions are welcome!  
+- Fork the repository  
+- Add improvements or new programs  
+- Submit a pull request 🚀  
