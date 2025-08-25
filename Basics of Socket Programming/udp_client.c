@@ -12,7 +12,17 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
-#define SERVERPORT 8080 // the port users will be connecting to
+//the port users will be connecting to
+#define SERVERPORT 8080     
+
+// ✅ New function added
+void check_exit(const char *msg, int sockfd) {
+    if (strcmp(msg, "exit") == 0) {
+        printf("Exit command received. Closing client...\n");
+        close(sockfd);
+        exit(0);
+    }
+}
 
 int main() {
     int sockfd;
@@ -45,6 +55,9 @@ int main() {
         arg[len - 1] = '\0'; // Remove the newline character from the input
     }
 
+    // ✅ Check if user typed "exit"
+        check_exit(arg, sockfd);
+    
     // Send message to server
     if ((numbytes = sendto(sockfd, arg, strlen(arg), 0,
             (struct sockaddr *)&their_addr, sizeof(their_addr))) == -1) {
