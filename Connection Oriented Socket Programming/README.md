@@ -1,4 +1,4 @@
-# Connection-Oriented Socket Programming (TCP)
+# 🌐 Connection-Oriented Socket Programming (TCP)
 
 This folder demonstrates **connection-oriented socket programming** in C using the **TCP protocol**.  
 Unlike UDP, TCP establishes a reliable connection between the client and server before exchanging data.  
