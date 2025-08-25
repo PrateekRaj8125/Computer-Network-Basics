@@ -1,12 +1,12 @@
-# 📡 Basic Programming for Computer Networks  
+# 📡 Basic Programming for Computer Networks
 
-This repository contains **introductory programs and concepts** related to **Computer Networks**, designed to help students and beginners build a solid foundation.  
+This repository contains **introductory programs and concepts** related to **Computer Networks**, designed to help students and beginners build a solid foundation.
 
-The programs progress from **basic C programming fundamentals** to **socket programming (UDP & TCP)**, ensuring step-by-step learning.  
+The programs progress from **basic C programming fundamentals** to **socket programming (UDP & TCP)**, ensuring step-by-step learning.
 
 ---
 
-## 📂 Repository Contents  
+## 📂 Repository Contents
 
 | Module | Description |
 |--------|-------------|
@@ -16,28 +16,30 @@ The programs progress from **basic C programming fundamentals** to **socket prog
 
 ---
 
-## 🎯 Purpose  
+## 🎯 Purpose
 
-- Strengthen **C programming skills** for networking applications  
-- Understand the **fundamentals of socket programming**  
-- Provide **hands-on programs** aligned with Computer Networks laboratory work  
-
----
-
-## ▶️ Usage  
-
-Each folder contains:  
-- 📘 **Coverage** → concepts explained  
-- 📝 **Assignments** → programs to practice  
-- 💻 **Code files** → sample implementations  
-
-You can navigate to the respective folders to explore code and instructions.  
+- Strengthen **C programming skills** for networking applications
+- Understand the **fundamentals of socket programming**
+- Provide **hands-on programs** aligned with Computer Networks laboratory work
 
 ---
 
-## 🤝 Contribution  
+## ▶️ Usage
 
-Contributions are welcome!  
-- Fork the repository  
-- Add improvements or new programs  
-- Submit a pull request 🚀  
+Each folder contains:
+
+- 📘 **Coverage** → concepts explained
+- 📝 **Assignments** → programs to practice
+- 💻 **Code files** → sample implementations
+
+You can navigate to the respective folders to explore code and instructions.
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome!
+
+- Fork the repository
+- Add improvements or new programs
+- Submit a pull request 🚀
