@@ -17,7 +17,7 @@ We take security and code integrity seriously.
 If you discover a vulnerability, security flaw, or bug in the **Computer Networks Basics** repository, please follow these steps:
 
 1. **Do not** publicly disclose the issue until it has been reviewed and resolved.  
-2. Report the vulnerability by creating a **[GitHub Security Advisory](https://github.com/PrateekRaj8125/CN_Lab/security/advisories)** or by emailing **[prateek.raj.indt@gmail.com](mailto:prateek.raj.indt@gmail.com)**.  
+2. Report the vulnerability by creating a **[GitHub Security Advisory](https://github.com/PrateekRaj8125/Computer-Network-Basics/security/advisories)** or by emailing **[prateek.raj.indt@gmail.com](mailto:prateek.raj.indt@gmail.com)**.  
 3. Provide detailed information:  
    - Steps to reproduce the issue  
    - Potential impact of the vulnerability  
