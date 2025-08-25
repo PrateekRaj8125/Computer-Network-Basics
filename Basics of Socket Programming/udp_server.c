@@ -12,8 +12,19 @@ This program creates a UDP server that listens on a specific port, receives a me
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define PORT	 8080      // Port number for server
-#define MAXLINE  1024      // Maximum buffer size
+// Port number for server
+#define PORT	 8080      
+// Maximum buffer size
+#define MAXLINE  1024      
+
+// Function to check for "exit" message
+void check_exit(const char *msg, int sockfd) {
+    if (strcmp(msg, "exit") == 0) {
+        printf("Exit command received. Closing server...\n");
+        close(sockfd);
+        exit(0);
+    }
+}
 
 int main() {
     int sockfd;
@@ -52,6 +63,9 @@ int main() {
     n = recvfrom(sockfd, buffer, MAXLINE, 0, (struct sockaddr *) &cliaddr, &len);
     buffer[n] = '\0'; // Null-terminate received message
     printf("Client : %s\n", buffer);
+
+    // Check if client sent "exit"
+        check_exit(buffer, sockfd);
 
     // Step 6: Send response to client
     sendto(sockfd, hello, strlen(hello), 0, (struct sockaddr *) &cliaddr, len);
