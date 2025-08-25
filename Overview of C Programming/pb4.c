@@ -12,25 +12,26 @@ char ch3;
 
 #include <stdio.h>
 
+// Structure to hold bytes of the number
 struct pkt {
-    char ch1;
-    char ch2[2];
-    char ch3;
+    char ch1;      // First byte (LSB)
+    char ch2[2];   // Second and third bytes
+    char ch3;      // Fourth byte (MSB)
 };
 
 int main() {
     unsigned int num;
     struct pkt p;
 
-    // Step 1: Input
+    // Step 1: Input a 32-bit unsigned integer from user
     printf("Enter a 32-bit unsigned integer: ");
     scanf("%u", &num);
 
     // Step 2: Break the number into bytes and assign to structure members
-    p.ch1     = (num & 0xFF);             // Byte 0 (LSB)
-    p.ch2[0]  = (num >> 8) & 0xFF;        // Byte 1
-    p.ch2[1]  = (num >> 16) & 0xFF;       // Byte 2
-    p.ch3     = (num >> 24) & 0xFF;       // Byte 3 (MSB)
+    p.ch1     = (num & 0xFF);             // Assign least significant byte to ch1
+    p.ch2[0]  = (num >> 8) & 0xFF;        // Assign second byte to ch2[0]
+    p.ch2[1]  = (num >> 16) & 0xFF;       // Assign third byte to ch2[1]
+    p.ch3     = (num >> 24) & 0xFF;       // Assign most significant byte to ch3
 
     // Step 3: Print structure contents as unsigned integers
     printf("\n--- Structure Members (Bytes) ---\n");
@@ -39,7 +40,7 @@ int main() {
     printf("ch2[1]  = %u\n", (unsigned char)p.ch2[1]);
     printf("ch3     = %u\n", (unsigned char)p.ch3);
 
-    // Step 4: Reconstruct original number
+    // Step 4: Reconstruct original number from structure members
     unsigned int reconstructed = ((unsigned char)p.ch3 << 24) |
                                  ((unsigned char)p.ch2[1] << 16) |
                                  ((unsigned char)p.ch2[0] << 8) |
