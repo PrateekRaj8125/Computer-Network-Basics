@@ -8,11 +8,11 @@ The programs progress from **basic C programming fundamentals** to **socket prog
 
 ## 📂 Repository Contents
 
-| Module | Description |
-|--------|-------------|
-| [1. Overview of C Programming](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/1.%20Overview%20of%20C%20Programming) | Covers essential C programming concepts (functions, pointers, structures, endianness) required for networking. |
-| [2. Basics of Socket Programming](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/2.%20Basics%20of%20Socket%20Programming) | Introduction to **UDP (connectionless)** socket programming with sender–receiver communication. |
-| [3. Connection-Oriented Socket Programming](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/3.%20Connection%20Oriented%20Socket%20Programming) | Implementation of **TCP client–server** communication with connection establishment, message exchange, and teardown. |
+| S. No. | Module | Description |
+|---|--------|-------------|
+| 1. | [Overview of C Programming](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/1.%20Overview%20of%20C%20Programming) | Covers essential C programming concepts (functions, pointers, structures, endianness) required for networking. |
+| 2. | [Basics of Socket Programming](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/2.%20Basics%20of%20Socket%20Programming) | Introduction to **UDP (connectionless)** socket programming with sender–receiver communication. |
+| 3. | [Connection-Oriented Socket Programming](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/3.%20Connection%20Oriented%20Socket%20Programming) | Implementation of **TCP client–server** communication with connection establishment, message exchange, and teardown. |
 
 ---
 
