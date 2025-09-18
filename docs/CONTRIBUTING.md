@@ -33,7 +33,7 @@ You can contribute in several ways:
 2. Clone your fork:
 
     ```bash
-    git clone https://github.com/your-username/CN_Lab.git
+    git clone https://github.com/PrateekRaj8125/Computer-Network-Basics.git
     ```
 
 3. Open the project in your preferred editor (e.g., VS Code, or any C IDE).  
