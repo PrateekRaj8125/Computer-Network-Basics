@@ -1,16 +1,5 @@
 # 🔒 Security Policy
 
-## Supported Versions
-
-The following table shows which versions of the **Computer Networks Basics** repository are currently supported with security updates and bug fixes.
-
-| Version  | Supported          |
-| -------- | ------------------ |
-| 1.0.x    | :white_check_mark: |
-| < 1.0    | :x:                |
-
----
-
 ## Reporting a Vulnerability
 
 We take security and code integrity seriously.
