@@ -54,19 +54,6 @@ You can contribute in several ways:
   - Meaningful variable names  
   - Adequate comments  
 - Use **pull requests (PRs)** for all changes.  
-- Create a feature branch for your work:
-
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-- Write clear commit messages:
-
-    ```txt
-    feat: add endianness conversion program
-    fix: resolve bug in UDP client exit condition
-    docs: update README for TCP socket lab
-    ```
 
 ---
 
