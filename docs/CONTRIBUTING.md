@@ -16,14 +16,17 @@ You can contribute in several ways:
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Structure
 
-- [Lab 2: Overview of C Programming](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/Overview%20of%20C%20Programming)  
-- [Lab 3: Basics of Socket Programming (UDP)](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/Basics%20of%20Socket%20Programming)  
-- [Lab 4: Connection-Oriented Socket Programming (TCP)](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/Connection%20Oriented%20Socket%20Programming)  
-- [Security Policy](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/docs/SECURITY.md)  
-- [LICENSE](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/LICENSE.md)
-- [CODE OF CONDUCT](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/docs/CODE_OF_CONDUCT.md)  
+│─── [Lab 2: Overview of C Programming](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/Overview%20of%20C%20Programming)  
+│─── [Lab 3: Basics of Socket Programming (UDP)](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/Basics%20of%20Socket%20Programming)  
+│─── [Lab 4: Connection-Oriented Socket Programming (TCP)](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/Connection%20Oriented%20Socket%20Programming)  
+│─── [docs](https://github.com/PrateekRaj8125/Computer-Network-Basics/tree/main/docs)  
+│ │─── [Security Policy](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/docs/SECURITY.md)  
+│ └─── [CONTRIBUTING](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/docs/CONTRIBUTING.md)  
+│ └─── [CODE OF CONDUCT](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/docs/CODE_OF_CONDUCT.md)  
+│─── [LICENSE](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/LICENSE.md)  
+│─── [README](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/README.md)  
 
 ---
 
