@@ -19,7 +19,7 @@ It focuses on functions, pointers, structures, and system-level concepts like **
 
 1. **Swap using Pointers**
    - Write a C program to swap the content of two variables entered through the command line using functions and pointers.
-   - Code File - [swap pointers](https://github.com/PrateekRaj8125/CN_Lab/blob/main/Overview%20of%20C%20Programming/swap_pointers.c)
+   - Code File - [swap pointers](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/1.%20Overview%20of%20C%20Programming/swap_pointers.c)
 
 2. **Structure Operations**
    - Assign values to a structure (`student_info`) and pass it:
@@ -36,11 +36,11 @@ It focuses on functions, pointers, structures, and system-level concepts like **
     };
     ```
 
-    - Code File - [call by value and call by address](https://github.com/PrateekRaj8125/CN_Lab/blob/main/Overview%20of%20C%20Programming/structure_call_by_value%20and%20call_by_address.c)
+    - Code File - [call by value and call by address](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/1.%20Overview%20of%20C%20Programming/structure_call_by_value%20and%20call_by_address.c)
 
 3. Extract Bytes from a Number
     - Write a C program to extract each byte from a number, store them in separate variables, and print them.
-    - Code File - [extract bytes](https://github.com/PrateekRaj8125/CN_Lab/blob/main/Overview%20of%20C%20Programming/extract_bytes.c)
+    - Code File - [extract bytes](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/1.%20Overview%20of%20C%20Programming/extract_bytes.c)
 
 4. Store and Reconstruct a Number using Structure
     - Enter a number, store it across a structure, print each member, then reconstruct the original number.
@@ -53,12 +53,12 @@ It focuses on functions, pointers, structures, and system-level concepts like **
     };
    ```
 
-    - Code File - [pkt structure](https://github.com/PrateekRaj8125/CN_Lab/blob/main/Overview%20of%20C%20Programming/pkt_structure.c)
+    - Code File - [pkt structure](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/1.%20Overview%20of%20C%20Programming/pkt_structure.c)
 
 5. Check Endianness
     - Write a C program to check whether the host machine is Little Endian or Big Endian.
     - Print the content of each byte and convert endianness (Little ↔ Big).
-    - Code File - [endianness](https://github.com/PrateekRaj8125/CN_Lab/blob/main/Overview%20of%20C%20Programming/endianness.c)
+    - Code File - [endianness](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/1.%20Overview%20of%20C%20Programming/endianness.c)
   
 ## ▶️ How to Compile & Run
 
