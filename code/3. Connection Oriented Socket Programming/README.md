@@ -32,8 +32,8 @@ Write a **TCP client and server program** in C with the following behavior:
   - Sends `"close"` to terminate the connection.
 
 - **Files**
-  - TCP server program - [tcp_server.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/Connection%20Oriented%20Socket%20Programming/tcp_server.c)
-  - TCP client program - [tcp_client.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/Connection%20Oriented%20Socket%20Programming/tcp_client.c)
+  - TCP server program - [tcp_server.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/3.%20Connection%20Oriented%20Socket%20Programming/tcp_server.c)
+  - TCP client program - [tcp_client.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/3.%20Connection%20Oriented%20Socket%20Programming/tcp_client.c)
 
 ---
 
