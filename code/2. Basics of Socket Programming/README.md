@@ -25,8 +25,8 @@ It demonstrates how two programs (a client and a server) can communicate using I
 
 - Files
   
-  - UDP Client Program - [udp_client.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/Basics%20of%20Socket%20Programming/udp_client.c)
-  - UDP Server Program - [udp_server.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/Basics%20of%20Socket%20Programming/udp_server.c)
+  - UDP Client Program - [udp_client.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/2.%20Basics%20of%20Socket%20Programming/udp_client.c)
+  - UDP Server Program - [udp_server.c](https://github.com/PrateekRaj8125/Computer-Network-Basics/blob/main/code/2.%20Basics%20of%20Socket%20Programming/udp_server.c)
 
 ---
 
